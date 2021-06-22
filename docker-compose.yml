@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  frontendangular:
+    image: angular-app
+    build: .
+    ports: 
+      -8081:80
+     

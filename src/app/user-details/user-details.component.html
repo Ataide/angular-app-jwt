@@ -1,0 +1,30 @@
+<div class="auth-wrapper" fxLayout="row" fxLayoutAlign="center center">
+  <mat-card class="box">
+    <mat-card-header>
+      <mat-card-title>Detalhes Usuário</mat-card-title>
+    </mat-card-header>
+
+    <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+      <mat-card-content fxLayout="column">
+
+        <mat-form-field>
+          <input matInput placeholder="Name" formControlName="name">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="Email" formControlName="email">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="Password" formControlName="password">
+        </mat-form-field>      
+
+      </mat-card-content>
+
+      <button mat-stroked-button color="primary" class="btn-block">Atualizar</button>
+      <a style="margin-top: 10px;" mat-stroked-button color="warn" (click)="delete(this.f.id.value)"  class="btn-block">Deletar</a>
+      <a style="margin-top: 10px;" mat-stroked-button color="danger" (click)="cancelar()" class="btn-block">Cancelar</a>
+
+    </form>
+  </mat-card>
+</div>

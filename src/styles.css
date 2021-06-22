@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #f8f9fa; }
+
+.main {
+  height: 88vh;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 30px;
+}
+.auth-wrapper {
+  height: 100%;
+}
+
+.box { 
+  width: 100%;  
+  max-width: 330px;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.mat-row .mat-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-row:hover .mat-cell {
+  border-color: rgb(117, 152, 248);
+}
