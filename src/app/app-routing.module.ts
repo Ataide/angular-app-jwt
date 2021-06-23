@@ -8,6 +8,7 @@ import { AuthGuard } from './services/auth.guard';
 import { UserDetailsComponent } from './user-details/user-details.component';
 
 const routes: Routes = [
+  { path: '', component: RegisterComponent }, 
   { path: 'login', component: LoginComponent }, 
   { path: 'register', component: RegisterComponent }, 
   { path: 'users', component: UsersComponent, canActivate: [AuthGuard] },
