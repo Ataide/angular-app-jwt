@@ -19,9 +19,6 @@ import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatInputModule } from '@angular/material/input';
 import { MatTableModule } from '@angular/material/table';
 
-
-
-import { DocumentosComponent } from './documentos/documentos.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { JwtInterceptor } from './interceptors/jwt.interceptor';
@@ -32,8 +29,7 @@ import { SharedUserService } from './services/shared-user.service';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    DocumentosComponent,
+    AppComponent,    
     LoginComponent,
     RegisterComponent,
     UsersComponent,
