@@ -27,15 +27,15 @@ O App deverá entregar uma tela de registro. Com um form pedindo Nome, Email, Pa
 
 ### Tela de Login
 
-![Alt text](/src/assets/login.jpg)
+![Alt text](src/assets/login.jpg)
 
 ### Tela de Registro
 
-![Alt text](/src/assets/register.jpg)
+![Alt text](src/assets/register.jpg)
 
 ### Tela Home
 
-![Alt text](/src/assets/home.jpg)
+![Alt text](src/assets/home.jpg)
 
 
 
